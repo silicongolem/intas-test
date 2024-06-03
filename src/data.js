@@ -1,0 +1,258 @@
+export const tests = [
+  {
+    id: 1,
+    name: "Test's name",
+    duration: 3600,
+    questions: [
+      {
+        question: "1. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 0,
+      },
+      {
+        question: "2. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "3. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "4. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "5. Вопрос",
+        options: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin odio sit amet.",
+          "Lorem ipsum dolor sit amet, aliquam sollicitudin odio sit amet.",
+        ],
+        correct: 1,
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Another Test",
+    duration: 1800,
+    questions: [
+      {
+        question: "1. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 0,
+      },
+      {
+        question: "2. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "3. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "4. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "5. Вопрос",
+        options: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin odio sit amet.",
+          "Lorem ipsum dolor sit amet, aliquam sollicitudin odio sit amet.",
+        ],
+        correct: 1,
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Test",
+    duration: 900,
+    questions: [
+      {
+        question: "1. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 0,
+      },
+      {
+        question: "2. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "3. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "4. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "5. Вопрос",
+        options: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin odio sit amet.",
+          "Lorem ipsum dolor sit amet, aliquam sollicitudin odio sit amet.",
+        ],
+        correct: 1,
+      },
+    ],
+  },
+  {
+    id: 4,
+    name: "Название теста",
+    duration: 1200,
+    questions: [
+      {
+        question: "1. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 0,
+      },
+      {
+        question: "2. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "3. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "4. Вопрос",
+        options: [
+          "Вариант А",
+          "Вариант Б",
+          "Вариант В",
+          "Вариант Г",
+          "Вариант Д",
+          "Вариант Е",
+        ],
+        correct: 1,
+      },
+      {
+        question: "5. Вопрос",
+        options: [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin odio sit amet.",
+          "Lorem ipsum dolor sit amet, aliquam sollicitudin odio sit amet.",
+        ],
+        correct: 1,
+      },
+    ],
+  },
+];

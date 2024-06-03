@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Application</title>
+    <link rel="stylesheet" href="./src/styles/normalize.css" />
+    <link rel="stylesheet" href="./src/styles/styles.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <header class="page__header">TESTS</header>
+    <div class="app">
+      <aside class="sidebar sidebar--collapsed" id="sidebar">
+        <div class="sidebar__header">
+          <button class="sidebar__button" id="toggle-sidebar">
+            <img
+              class="sidebar__img"
+              id="sidebarIcon"
+              src="/src/img/burger-menu.png"
+              alt=""
+            />
+          </button>
+          <h2 id="sidebarTitle" class="sidebar__title">ТЕСТЫ</h2>
+        </div>
+        <nav class="menu menu--collapsed" id="sidebarMenu">
+          <ul class="menu__list">
+            <li class="menu__item" data-content="contentTest1" id="menuItem1">
+              Test's name
+            </li>
+            <li class="menu__item" data-content="contentTest2" id="menuItem2">
+              Another Test
+            </li>
+            <li class="menu__item" data-content="contentTest3" id="menuItem3">
+              Test
+            </li>
+            <li class="menu__item" data-content="contentTest4" id="menuItem4">
+              Название теста
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <div class="content__container">
+      <div class="content__header">Описание</div>
+      <main class="main-content">
+        <div id="defaultContent" class="content--default content">
+          Выберите тест из списка
+        </div>
+        <section id="contentTest1" class="content">
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            ullamcorper volutpat tristique. Fusce et nunc porttitor, pretium
+            urna at, sagittis purus. Nullam sagittis congue sapien non sodales.
+            Aliquam vel condimentum lacus, sit amet feugiat velit. Suspendisse
+            congue imperdiet dui, sit amet cursus mi viverra sed. Nam porttitor
+            venenatis vehicula. Vestibulum sed arcu vel lorem venenatis tempor.
+          </p>
+          <button id="startTest1Btn" class="btn">Начать</button>
+        </section>
+        <section id="contentTest2" class="content">
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            ullamcorper volutpat tristique. Fusce et nunc porttitor, pretium
+            urna at, sagittis purus. Nullam sagittis congue sapien non sodales.
+            Aliquam vel condimentum lacus, sit amet feugiat velit. Suspendisse
+            congue imperdiet dui, sit amet cursus mi viverra sed. Nam porttitor
+            venenatis vehicula. Vestibulum sed arcu vel lorem venenatis tempor.
+          </p>
+          <button id="startTest2Btn" class="btn">Начать</button>
+        </section>
+        <section id="contentTest3" class="content">
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            ullamcorper volutpat tristique. Fusce et nunc porttitor, pretium
+            urna at, sagittis purus. Nullam sagittis congue sapien non sodales.
+            Aliquam vel condimentum lacus, sit amet feugiat velit. Suspendisse
+            congue imperdiet dui, sit amet cursus mi viverra sed. Nam porttitor
+            venenatis vehicula. Vestibulum sed arcu vel lorem venenatis tempor.
+          </p>
+          <button id="startTest3Btn" class="btn">Начать</button>
+        </section>
+        <section id="contentTest4" class="content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            ullamcorper volutpat tristique. Fusce et nunc porttitor, pretium
+            urna at, sagittis purus. Nullam sagittis congue sapien non sodales.
+            Aliquam vel condimentum lacus, sit amet feugiat velit. Suspendisse
+            congue imperdiet dui, sit amet cursus mi viverra sed. Nam porttitor
+            venenatis vehicula. Vestibulum sed arcu vel lorem venenatis tempor.
+          </p>
+          <button id="startTest4Btn" class="btn">Начать</button>
+        </section>
+        <section id="testContent" class="content">
+          <form id="questionContainer" class="question-container">
+          </form>
+          <button id="finishTestBtn" class="btn">Завершить</button>
+        </section>
+        <section id="testResult" class="content">
+          <h1 class="testResult__h1">Тест завершён</h1>
+          <span class="testResult__answered"
+            >Вы ответили на <span id="answeredCountResult"></span> из
+            <span id="totalQuestionsCountResult">0</span> вопросов</span
+          >
+          <span class="testResult__answers">Ваши ответы</span>
+          <div id="resultContainer"></div>
+          <button id="restartTestBtn" class="btn">Пройти ещё раз</button>
+        </section></div>
+      </main>
+    </div>
+    <footer class="page__footer">2020 © INTAS-Company.com</footer>
+  </div>
+    <script src="/src/main.js" type="module"></script>
+    <div id="exitConfirmationModal" class="modal">
+      <div class="modal-content">
+        <p class="modal-content__title">Вы уверены, что хотите выйти?</p>
+        <p class="modal-content__text">Все результаты будут сброшены</p>
+        <div class="modal-content__buttons"><button id="confirmExit" class="btn">Подтвердить</button>
+        <button id="cancelExit" class="btn">Отмена</button></div>
+      </div>
+    </div>
+  </body>
+</html>
